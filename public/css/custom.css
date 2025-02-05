@@ -1,0 +1,61 @@
+/* Paleta de colores */
+:root {
+    --cafe-oscuro: #4E342E; /* Grano de café tostado */
+    --crema: #D7CCC8; /* Café con leche */
+    --verde-oliva: #8E8D6E; /* Naturaleza */
+    --blanco-roto: #FAF3E0; /* Fondo claro */
+    --ocre-dorado: #C49A6C; /* Elementos destacados */
+}
+
+/* Estilos globales */
+body {
+    background-color: var(--blanco-roto) !important;
+    color: var(--cafe-oscuro)!important;
+    font-family: 'Arial', sans-serif !important;
+}
+
+.navbar {
+    background-color: var(--cafe-oscuro) !important;
+}
+
+.navbar-brand, .nav-link {
+    color: var(--blanco-roto) !important;
+}
+
+.nav-link:hover {
+    color: var(--ocre-dorado) !important;
+}
+
+.btn-primary {
+    background-color: var(--ocre-dorado) !important;
+    border-color: var(--ocre-dorado) !important;
+    color: var(--blanco-roto) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--cafe-oscuro) !important;
+    border-color: var(--cafe-oscuro) !important;
+}
+
+footer {
+    background-color: var(--verde-oliva) !important;
+    color: var(--blanco-roto) !important;
+}
+
+/* Otros elementos destacados */
+h2 {
+    color: var(--ocre-dorado) !important;
+}
+
+a {
+    color: var(--cafe-oscuro) !important;
+}
+
+a:hover {
+    color: var(--ocre-dorado) !important;
+}
+
+#contacto a:hover {
+    color: var(--ocre-dorado);
+    text-decoration: underline;
+}
